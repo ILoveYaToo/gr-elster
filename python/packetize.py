@@ -26,6 +26,7 @@ import struct
 import time
 import numpy
 from gnuradio import gr
+import influxdb_client #https://github.com/influxdata/influxdb-client-python/blob/a0779ab479e7cf9a7fefe0d9aba6df8dc683a8a3/influxdb_client/client/write/point.py#L85
 
 
 class packetize(gr.basic_block):
